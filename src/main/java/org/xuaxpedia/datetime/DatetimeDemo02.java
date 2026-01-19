@@ -7,6 +7,16 @@ import java.time.format.DateTimeFormatter;
 
 public class DatetimeDemo02 {
   public static void main(String[] args) {
+
+    /*
+    * Java 8 Date and Time API
+    * LocalDateTime - current date and time
+    * LocalDateTime - specific format with current date and time
+    * ZonedDateTime - current date and time with time zone
+    * ZonedDateTime - current date and time with a specific time zone
+    * ZonedDateTime - formatted time zone
+    * ZoneId - Available Zone ID List
+    */
     LocalDateTime localDateTime = LocalDateTime.now();
     DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
     String formatted = localDateTime.format(dateTimeFormatter);
