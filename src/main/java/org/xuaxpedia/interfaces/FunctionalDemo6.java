@@ -5,6 +5,13 @@ import java.util.function.Predicate;
 public class FunctionalDemo6 {
   public static void main(String[] args) {
 
+    /*
+    * Predicate<T> : accepts a single input argument and returns a boolean value.
+    * It represents a condition or property that the input argument must satisfy.
+    * Also includes default methods like and(), or(), negate() to combine multiple Predicates.
+    * Also includes the equals() method to compare two Predicate instances.
+    */
+
     //PREDICATE - and() test() METHODS
     Predicate<String> iPredicate = x -> x.length() > 3;
     Predicate<String> iPredicateAnd = y -> y.length() < 10;

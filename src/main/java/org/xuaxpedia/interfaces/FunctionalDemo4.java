@@ -8,8 +8,15 @@ public class FunctionalDemo4 {
 
   public static void main(String[] args) {
 
+    /*
+      * Consumer<T> : accepts a single input argument and returns no result.
+      * It represents an operation that takes a single input and produces no output.
+      * Also includes the default method andThen() to combine multiple Consumers. 
+    */
+
     //CONSUMER - ACCEPT() METHOD
-    Consumer<String> message = System.out::println;
+    Consumer<String> message = n -> System.out.println(n);
+    //Consumer<String> message = System.out::println;
     message.accept("Hello Consumer - accept() method");
 
     Consumer<List<String>> iConsumer1 = listUpdate -> listUpdate.replaceAll(s -> "Hello " + s);

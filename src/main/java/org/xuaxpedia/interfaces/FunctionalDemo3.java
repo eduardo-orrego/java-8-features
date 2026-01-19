@@ -13,8 +13,26 @@ import java.util.function.UnaryOperator;
 public class FunctionalDemo3 {
   public static void main(String[] args) {
 
-    Consumer<Integer> c1 = System.out::println;
-    //Consumer<Integer> c1 = n -> System.out.println(n);
+    /*
+    * Commonly used functional interfaces in java.util.function package
+    1. Consumer<T> : accepts a single input argument and returns no result. 
+       It represents an operation that takes a single input and produces no output.
+    2. BiConsumer<T, U> : accepts two input arguments and returns no result.
+    3. Predicate<T> : accepts a single input argument and returns a boolean value.
+    4. BiPredicate<T, U> : accepts two input arguments and returns a boolean value.
+    5. Function<T, R> : accepts a single input argument and produces a result
+    6. BiFunction<T, U, R> : accepts two input arguments and produces a result
+    7. Supplier<T> : represents a supplier of results. It takes no input and
+        returns a result of type T.
+    8. UnaryOperator<T> : a special case of Function that takes a single argument
+        of type T and returns a result of the same type T.
+    9. BinaryOperator<T> : a special case of BiFunction that takes two arguments
+        of type T and returns a result of the same type T.
+    */
+    
+    Consumer<Integer> c1 = n -> System.out.println(n);
+    //Consumer<Integer> c1 = System.out::println;
+    
     c1.accept(1);
 
     BiConsumer<String, String> c2 = (s1, s2) -> System.out.println(s1 + " " + s2);

@@ -6,7 +6,14 @@ import java.util.function.BiConsumer;
 
 public class FunctionalDemo5 {
 
+  /*
+  * BiConsumer<T, U> : accepts two input arguments and returns no result.
+  * It represents an operation that takes two inputs and produces no output.
+  * Also includes the default method andThen() to combine multiple BiConsumers.
+  */
+
   public static void main(String[] args) {
+    
     //BICONSUMER - accept() METHOD
     BiConsumer<Integer, List<Integer>> iConsumer1 = (a, b) -> {
       System.out.println("Original value");
