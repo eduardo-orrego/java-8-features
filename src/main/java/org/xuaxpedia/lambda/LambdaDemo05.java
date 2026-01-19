@@ -5,7 +5,7 @@ interface INumericTest {
   boolean test(int n, int m);
 }
 
-public class LambdaDemo5 {
+public class LambdaDemo05 {
   public static void main(String[] args) {
 
     /*

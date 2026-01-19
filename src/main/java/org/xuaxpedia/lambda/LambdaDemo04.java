@@ -5,7 +5,7 @@ interface IMultipleParameter {
   void message(String name1, String name2);
 }
 
-public class LambdaDemo4 {
+public class LambdaDemo04 {
 
   static void functionDemo(IMultipleParameter i, String name1, String name2) {
     i.message(name1, name2);
