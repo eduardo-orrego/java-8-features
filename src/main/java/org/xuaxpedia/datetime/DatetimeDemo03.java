@@ -8,6 +8,17 @@ import java.time.Period;
 
 public class DatetimeDemo03 {
   public static void main(String[] args) {
+
+    /*
+     * Java 8 Date and Time API
+     * LocalDate - current date
+     * LocalDate - specific date
+     * LocalTime - modified time by adding duration (plusHours, plusMinutes, plusSeconds, plusNanos methods)
+     * LocalTime - modified time by adding duration (Duration class)
+     * Period - amount of time in terms of years, months, and days
+     * Duration - amount of time in terms of seconds and nanoseconds
+     */
+
     LocalDate localDate1 = LocalDate.now();
     LocalDate localDate2 = LocalDate.of(2014, Month.DECEMBER, 12);
 

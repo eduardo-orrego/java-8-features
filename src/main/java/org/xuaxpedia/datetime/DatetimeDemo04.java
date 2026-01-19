@@ -5,6 +5,12 @@ import java.time.temporal.ChronoUnit;
 
 public class DatetimeDemo04 {
   public static void main(String[] args) {
+    /*
+    * Java 8 Date and Time API
+    * LocalDate - current date
+    * LocalDate - modified date by adding years, months, weeks, decades (plusYears, plusMonths, plusWeeks, plus methods)
+    * LocalDate - modified date by adding years, months, weeks, decades (ChronoUnit class)
+    */
     LocalDate localDate = LocalDate.now();
     System.out.println("LocalDate - the current date : " + localDate);
 

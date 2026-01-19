@@ -12,8 +12,9 @@ public class DatetimeDemo02 {
     * Java 8 Date and Time API
     * LocalDateTime - current date and time
     * LocalDateTime - specific format with current date and time
+    * DateTimeFormatter - used for formatting and parsing date-time objects
     * ZonedDateTime - current date and time with time zone
-    * ZonedDateTime - current date and time with a specific time zone
+    * ZonedDateTime - current date and time with a specific time zone (ZoneId class)
     * ZonedDateTime - formatted time zone
     * ZoneId - Available Zone ID List
     */

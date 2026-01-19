@@ -7,6 +7,11 @@ import java.time.temporal.TemporalAdjusters;
 public class DatetimeDemo05 {
   public static void main(String[] args) {
 
+    /*
+    * Java 8 Date and Time API
+    * LocalDate - current date
+    * LocalDate - modified date by temporal adjusters (TemporalAdjusters class) 
+    */
     LocalDate localDate1 = LocalDate.now();
     System.out.println("LocalDate - the current date : " + localDate1);
 
