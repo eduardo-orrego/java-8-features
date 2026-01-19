@@ -11,6 +11,11 @@ public class LambdaDemo01 {
   }
 
   public static void main(String[] args) {
+
+    /*
+      * Using lambda expression to implement the method of
+      * interface without parameters
+     */
     functionDemo(() -> System.out.println("Hello lambda - Interface without parameters"));
   }
 }

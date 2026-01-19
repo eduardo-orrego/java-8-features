@@ -10,9 +10,12 @@ public class LambdaDemo02 {
   }
 
   public static void main(String[] args) {
-    //functionDemo(msg -> System.out.println(msg), "Hello");
-    functionDemo(System.out::println, "Hello lambda");
-    functionDemo(System.out::println, "Interface with a parameter");
+    /*
+      * Using lambda expression to implement the method of
+      * interface with one parameter
+     */
+    functionDemo(msg -> System.out.println(msg), "Hello");
+    functionDemo(System.out::println, "Hello lambda.");
 
   }
 

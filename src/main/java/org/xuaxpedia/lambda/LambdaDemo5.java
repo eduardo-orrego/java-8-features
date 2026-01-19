@@ -7,6 +7,11 @@ interface INumericTest {
 public class LambdaDemo5 {
   public static void main(String[] args) {
 
+    /*
+      * Using lambda expression to implement the method of
+      * interface with multiple parameters and return value.
+     */
+
     INumericTest test = (n, m) -> (n * m) <= 10;
 
     if (test.test(5, 1))

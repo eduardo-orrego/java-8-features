@@ -10,9 +10,12 @@ interface FunctionalInterfaceDemo {
 
 public class LambdaDemo03 {
   public static void main(String[] args) {
-    //FunctionalInterfaceDemo funInterDemo = (String s) -> System.out.println(s);
-    FunctionalInterfaceDemo funInterDemo = System.out::println;
+    FunctionalInterfaceDemo funInterDemo = (String s) -> System.out.println(s);
     funInterDemo.abstractFunction("Hello lambda - Abstract Function");
     funInterDemo.nonAbstractFunction();
+
+    FunctionalInterfaceDemo funInterDemo2 = System.out::println;
+    funInterDemo2.abstractFunction("Hello lambda 2 - Abstract Function");
+    funInterDemo2.nonAbstractFunction();
   }
 }
