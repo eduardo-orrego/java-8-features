@@ -1,5 +1,6 @@
 package org.xuaxpedia.lambda;
 
+@FunctionalInterface
 interface IMultipleParameter {
   void message(String name1, String name2);
 }

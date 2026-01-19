@@ -1,5 +1,6 @@
 package org.xuaxpedia.lambda;
 
+@FunctionalInterface
 interface INumericTest {
   boolean test(int n, int m);
 }

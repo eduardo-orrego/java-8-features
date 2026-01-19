@@ -1,5 +1,6 @@
 package org.xuaxpedia.lambda;
 
+@FunctionalInterface
 interface IWithOneParameter {
   void message(String msg);
 }

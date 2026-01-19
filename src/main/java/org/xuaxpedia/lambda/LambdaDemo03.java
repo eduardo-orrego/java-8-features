@@ -1,5 +1,6 @@
 package org.xuaxpedia.lambda;
 
+@FunctionalInterface
 interface FunctionalInterfaceDemo {
   void abstractFunction(String parameter);
 
