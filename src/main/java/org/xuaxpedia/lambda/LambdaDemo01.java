@@ -14,9 +14,11 @@ public class LambdaDemo01 {
   public static void main(String[] args) {
 
     /*
-      * Using lambda expression to implement the method of
-      * interface without parameters
-     */
+    * In this example, we will see how to create a lambda expression for an interface without parameters.
+    * The interface "IWithoutParameter" is a functional interface with a single abstract method "message()" that does not take any parameters.
+    * We will create a lambda expression that implements this method to print a message to the console
+    */
+
     functionDemo(() -> System.out.println("Hello lambda - Interface without parameters"));
   }
 }

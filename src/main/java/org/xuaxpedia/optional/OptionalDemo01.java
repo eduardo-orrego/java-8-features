@@ -6,6 +6,36 @@ public class OptionalDemo01 {
 
   public static void main(String[] args) {
 
+    /*
+     * The Optional class in Java 8 is a container object that may or may not hold a
+     * non-null value, making the presence or absence of a value explicit.
+     * When a value is present, isPresent() returns true and get() returns the
+     * contained value.
+     * It is mainly used to avoid explicit null checks and reduce the risk of
+     * NullPointerException.
+     * Optional provides utility methods such as map, flatMap, and orElse to safely
+     * work with values when they are present.
+     * It encourages a functional programming style through the use of lambda
+     * expressions.
+     * By avoiding null as a special value, it improves code safety, readability,
+     * and maintainability.
+     * It is especially useful in method return types, APIs, collections, and
+     * streams to represent optional values and handle missing data properly.
+     * Overall, Optional integrates well with Java 8 features and helps reduce
+     * boilerplate code while promoting better handling of absent values.
+     * 
+     * Examples of Optional class operations:
+     * 1. empty
+     * 2. of
+     * 3. ofNullable
+     * 4. orElse
+     * 5. orElseGet
+     * 6. orElseThrow
+     * 7. map
+     * 8. flatMap
+     * 9. filter
+     * 10. ifPresent
+     */
     System.out.println("<<empty operation>>");
     Optional<String> emptyOptional = Optional.empty();
     System.out.println("Empty Optional: " + emptyOptional.isPresent());
@@ -43,7 +73,7 @@ public class OptionalDemo01 {
     System.out.println("Name length (map): " + nameLengthOptional.orElse(0));
 
     System.out.println("<<flatmap operation>>");
-    Optional<User> userOptional = Optional.of(new User("Luis",12));
+    Optional<User> userOptional = Optional.of(new User("Luis", 12));
     Optional<String> userNameOptional = userOptional.flatMap(user -> Optional.of(user.getName()));
     System.out.println("Username (flatMap): " + userNameOptional.orElse("No user"));
 

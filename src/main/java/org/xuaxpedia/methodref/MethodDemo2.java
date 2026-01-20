@@ -7,6 +7,14 @@ public class MethodDemo2 {
 
   public static void main(String[] args) {
 
+    /*
+    * Examples of Method References:
+    * 1. Reference to a static method
+    * 2. Reference to an instance method of particular object
+    * 3. Reference to an instance method of an arbitrary object of a particular type
+    * 4. Constructor method reference
+    */
+    
     List<Customer> customerList = new ArrayList<>();
     customerList.add(new Customer("Luis", 22));
     customerList.add(new Customer("Carlos", 21));

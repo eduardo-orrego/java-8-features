@@ -13,9 +13,14 @@ public class LambdaDemo04 {
 
   public static void main(String[] args) {
     /*
-      * Using lambda expression to implement the method of
-      * interface with multiple parameters.
-     */
+    * In this example, we will see how to create a lambda expression for an interface with multiple parameters.
+    * The interface "IMultipleParameter" is a functional interface with a single abstract method
+    * "message(String name1, String name2)" that takes two parameters of type String.
+    * We will create a lambda expression that implements this method to print the two names passed as
+    * parameters to the console in different formats.
+    * Also, we will see how to use the printf method to format the output.
+    * The printf method will be used to print the two names in different formats.
+    */
     functionDemo((s1, s2) -> System.out.printf("%s %s \n", s1, s2), "James", "Bond");
     functionDemo((s1, s2) -> System.out.printf("%s - %s \n", s1, s2), "Hello lambda",
       "Interface with multiple parameters");

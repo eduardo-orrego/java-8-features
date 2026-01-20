@@ -12,8 +12,13 @@ public class LambdaDemo02 {
 
   public static void main(String[] args) {
     /*
-      * Using lambda expression to implement the method of
-      * interface with one parameter
+      * In this example, we will see how to create a lambda expression for an interface with one parameter.
+      * The interface "IWithOneParameter" is a functional interface with a single abstract method
+      * "message(String msg)" that takes one parameter of type String.
+      * We will create a lambda expression that implements this method to print the message passed as parameter
+      * to the console.
+      * Also, we will see how to use method reference to achieve the same functionality.
+      * The method reference will refer to the println method of the System.out object.
      */
     functionDemo(msg -> System.out.println(msg), "Hello");
     functionDemo(System.out::println, "Hello lambda.");

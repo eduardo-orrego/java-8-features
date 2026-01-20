@@ -6,11 +6,14 @@ import java.util.logging.Logger;
 public class MethodDemo1 {
 
   public static void main(String[] args) {
-    //An interface functional as a variable and used as a parameter.
+    /*
+    * An example of using a lambda expression to implement a functional interface.
+    * Also demonstrates passing a lambda expression as a parameter to a method.
+    */    
+    
     Function<Integer, Integer> getFunction = n -> n * n;
-    DemoClass.functionDemo(2, getFunction);
 
-    //A lambda expression used as a parameter
+    DemoClass.functionDemo(2, getFunction);
     DemoClass.functionDemo(3, n -> n * n);
 
   }
