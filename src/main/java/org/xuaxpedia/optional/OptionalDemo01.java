@@ -56,7 +56,7 @@ public class OptionalDemo01 {
     System.out.println("Nickname (orElse): " + defaultNickname);
 
     System.out.println("<<orElseGet operation>>");
-    String city = nicknameOptional.orElse("Unknown City");
+    String city = nicknameOptional.orElseGet(() -> "Unknown City");
     System.out.println("City (orElseGet): " + city);
 
     System.out.println("<<orElseThrow operation>>");
