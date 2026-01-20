@@ -6,6 +6,13 @@ import java.util.stream.Stream;
 
 public class StreamDemo15 {
   public static void main(String[] args) {
+    /*
+    * An example of using various ways to create Java Streams.
+    * Shows empty operation to create an empty Stream.
+    * Shows of operation to create a Stream from specified values.
+    * Shows generate operation to create an infinite Stream using a Supplier.
+    * Shows iterate operation to create an infinite Stream using a seed and a UnaryOperator.
+    */
 
     System.out.println("Empty operation");
     // Stream.empty() operation: Create an empty stream.

@@ -9,6 +9,13 @@ import java.util.stream.Collectors;
 public class StreamDemo03 {
   public static void main(String[] args) {
 
+    /*
+    * An example of using sorting and mapping operations in Java Streams.
+    * Demonstrates filtering, sorting in reverse order, and mapping to extract specific fields.
+    * Also demonstrates the use of lambda expressions and method references.
+    * Also shows how to collect the results back into a list.
+    */
+
     List<TransactionDemo> transactions = new ArrayList<>();
     transactions.add(new TransactionDemo("id1", 150, "TYPE2"));
     transactions.add(new TransactionDemo("id2", 100, "TYPE1"));

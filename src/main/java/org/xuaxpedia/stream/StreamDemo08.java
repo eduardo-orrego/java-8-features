@@ -6,6 +6,16 @@ import java.util.Optional;
 
 public class StreamDemo08 {
   public static void main(String[] args) {
+
+    /*
+    * An example of using short-circuiting terminal operations in Java Streams.
+    * Shows anyMatch operation to check if any element matches a condition.
+    * Shows allMatch operation to check if all elements match a condition. 
+    * Shows noneMatch operation to check if no elements match a condition.
+    * Shows findFirst operation to find the first element.
+    * Shows findAny operation to find any element.
+    *  
+    */
     List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
     System.out.println("NUMBERS LIST " + numbers);

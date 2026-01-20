@@ -8,13 +8,27 @@ import java.util.stream.Collectors;
 public class StreamDemo07 {
   public static void main(String[] args) {
 
+    /*
+    * An example of using various terminal operations in Java Streams.
+    * Shows count operation to count the number of elements.
+    * Shows min operation to find the minimum element.
+    * Shows max operation to find the maximum element.
+    * Shows reduce operation to combine elements.
+    * Shows anyMatch operation to check if any element matches a condition.
+    * Shows allMatch operation to check if all elements match a condition.
+    * Shows noneMatch operation to check if no elements match a condition.
+    * Shows findFirst operation to find the first element.
+    * Shows findAny operation to find any element.
+    * Shows collect operation to gather elements into a collection.
+    */
+
     List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
     System.out.println("NUMBERS LIST: " + numbers);
 
     System.out.println("<<Terminal Operations>>");
 
-    // Operaciones terminales
+    // Terminal Operations
 
     System.out.println("<<OPERATION COUNT>>");
     //Counts the number of elements in the Stream

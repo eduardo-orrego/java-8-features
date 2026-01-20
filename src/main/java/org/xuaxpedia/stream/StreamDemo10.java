@@ -7,6 +7,25 @@ import java.util.stream.StreamSupport;
 
 public class StreamDemo10 {
   public static void main(String[] args) {
+
+    /*
+    * An example of using terminal operations in Java Streams.
+    * Shows forEach operation to perform an action for each element.
+    * Shows forEachOrdered operation to perform an action for each element in encounter order.
+    * Shows toArray operation to convert the Stream to an array.
+    * Shows reduce operation to combine elements of the Stream.
+    * Shows map operation to transform elements and collect them.
+    * Shows min operation to find the minimum element.
+    * Shows max operation to find the maximum element.
+    * Shows count operation to count the number of elements.
+    * Shows anyMatch operation to check if any element matches a condition.
+    * Shows allMatch operation to check if all elements match a condition.
+    * Shows findFirst operation to find the first element.
+    * Shows findAny operation to find any element.
+    * Shows spliterator operation to split the Stream for parallel processing.
+    * Shows summarizingInt operation to get summary statistics of integer elements.
+    */
+
     // List of numbers
     List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 

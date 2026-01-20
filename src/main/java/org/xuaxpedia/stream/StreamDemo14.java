@@ -6,6 +6,13 @@ import java.util.stream.Stream;
 public class StreamDemo14 {
   public static void main(String[] args) {
 
+    /*
+    * An example of using stream characteristics operations in Java.
+    * Shows parallel operation to convert a stream into a parallel stream.
+    * Shows sequential operation to convert a stream into a sequential stream.
+    * Shows unordered operation to indicate that the stream will not maintain order.
+    */
+
     System.out.println("<<parallel operation");
     // Parallel() operation: Converts the stream into a parallel stream
     // for more efficient processing.

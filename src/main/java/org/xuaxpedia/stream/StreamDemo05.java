@@ -6,6 +6,19 @@ import java.util.stream.Collectors;
 
 public class StreamDemo05 {
   public static void main(String[] args) {
+    /*
+    * An example of using various intermediate operations in Java Streams.
+    * Demonstrates filter operation to select elements based on a condition.
+    * Demonstrates map operation to transform elements.
+    * Demonstrates distinct operation to remove duplicates.
+    * Demonstrates flatMap operation to flatten nested structures.
+    * Demonstrates limit operation to restrict the number of elements.
+    * Demonstrates skip operation to skip a number of elements.
+    * Demonstrates sorted operation to sort elements.
+    * Demonstrates unordered operation to indicate that the order of elements is not important.
+    * Demonstrates peek operation to perform an action on each element.
+    * Also shows how to collect the results back into a list.
+    */
     List<String> words = Arrays.asList("Walter", "Dante", "Erick", "Raul", "Adrian", "Cesar", "Raul");
 
     System.out.println("NAMES LIST " + words);

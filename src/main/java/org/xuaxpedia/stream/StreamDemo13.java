@@ -10,6 +10,13 @@ import java.util.stream.Stream;
 public class StreamDemo13 {
   public static void main(String[] args) {
 
+    /*
+    * An example of using specialized stream operations in Java.
+    * Shows splitAsStream operation to split a CharSequence into a Stream based on a regex.
+    * Shows lines operation to create a Stream of lines from a BufferedReader.
+    * Shows Pattern.splitAsStream operation to split strings in a Stream based on a regex.
+    */
+
     Logger logger = Logger.getLogger(StreamDemo13.class.getName());
 
     logger.info("<<splitAsStream operation");

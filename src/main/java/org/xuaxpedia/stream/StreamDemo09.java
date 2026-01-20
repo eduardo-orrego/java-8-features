@@ -11,6 +11,21 @@ import java.util.stream.Stream;
 public class StreamDemo09 {
   public static void main(String[] args) {
 
+    /*
+    * An example of using intermediate operations in Java Streams.
+    * Shows filter operation to filter elements based on a condition.
+    * Shows map operation to transform elements.
+    * Shows flatMap operation to flatten nested structures.
+    * Shows distinct operation to remove duplicates.
+    * Shows sorted operation to sort elements.
+    * Shows peek operation to perform an action on each element.
+    * Shows limit operation to limit the number of elements.
+    * Shows skip operation to skip a number of elements.
+    * Shows unordered operation to allow unordered processing.
+    * Shows various mapTo... and flatMapTo... operations to convert between different stream types.
+    * Shows concat operation to join two streams.
+    */
+
     // Words List
     List<String> words = Arrays.asList("java", "is", "a", "programming", "language");
     // We create a Stream from the list of words

@@ -6,6 +6,11 @@ import java.util.stream.Collectors;
 
 public class StreamDemo01 {
   public static void main(String[] args) {
+    /*
+    * An example of using filtering operation in Java Streams, to filter out even numbers from a list.
+    * Also demonstrates the use of lambda expressions.
+    * Also shows how to collect the results back into a list.
+    */
     ArrayList<Integer> integerArrayList = new ArrayList<>();
     integerArrayList.add(2);
     integerArrayList.add(7);
@@ -13,8 +18,6 @@ public class StreamDemo01 {
     integerArrayList.add(15);
     integerArrayList.add(8);
 
-    //Streams can be used to filter, collect, print, and convert
-    //from one data structure to another, etc.
     List<Integer> integerList = integerArrayList.stream()
       .filter(n -> n % 2 == 0)
       .collect(Collectors.toList());

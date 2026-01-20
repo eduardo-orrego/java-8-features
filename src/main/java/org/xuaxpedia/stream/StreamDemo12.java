@@ -6,6 +6,12 @@ import java.util.stream.Stream;
 
 public class StreamDemo12 {
   public static void main(String[] args) {
+
+    /*
+    * An example of using parallel and sequential streams in Java.
+    * Shows parallel operation to convert a Stream to a parallel Stream.
+    * Shows sequential operation to convert a Stream to a sequential Stream.
+    */
     Logger logger = Logger.getLogger(StreamDemo12.class.getName());
 
     // Array of numbers
