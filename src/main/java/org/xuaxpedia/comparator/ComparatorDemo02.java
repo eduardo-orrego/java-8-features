@@ -8,6 +8,16 @@ public class ComparatorDemo02 {
 
   public static void main(String[] args) {
 
+    /*
+    * In this example, we will see how to use the "Comparator" interface to sort a list of "Book" objects by different attributes
+    * like title, isbn, and year.
+    * We will create different comparator classes implementing the Comparator interface to achieve this.
+    * Streams API will be used to print the list before and after sorting.
+    * Also we will see how to sort by multiple attributes using Comparator.
+    * Also TitleCompareOrder and IsbnCompareOrder comparator classes will be created to sort by title and isbn respectively.
+    * Finally, YearAndTitleCompareOrder comparator class will be created to sort by year and title.
+    */
+
     List<Book> list = Arrays.asList(
       new Book("Romantic Book", 123456, 2020),
       new Book("Mysql Book", 789012, 2015),
